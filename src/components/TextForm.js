@@ -1,4 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react';
+
+const [text, setText] = useState('Enter text here');
+
+//meaning : text is a variable which has default value 'Enter text here' and setText is a function used to update text var
+
 
 export default function TextForm(props) {
     return (
